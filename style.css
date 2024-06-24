@@ -1,0 +1,88 @@
+body {
+    margin: 40px;
+    padding: 0px;
+}
+
+* {
+    font-family: "outfit";
+    color: #5F564D;
+}
+
+img {
+    border-radius: 12px;
+    width: 656px;
+    height: 300px;
+    /* flex-grow: 1 */
+}
+
+.h1_1, .h2_1, .h2_2, .h2_3 {
+    font-family: "YoungSerif-Regular";
+}
+
+.heading-1-container {
+    margin: 40px 0 32px 0;
+}
+
+.preparation-time-container {
+    margin-top: 32px;
+    background-color: #FFF7FB;
+    padding: 28px;
+}
+ 
+.ingredients-container, .instructions-container, .nutrition-container {
+margin: 32px 0;
+}
+
+.h1_1 {
+color: #312E2C;
+font-size: 40px;
+}
+
+.p_1 {
+    margin-top: 16px;
+}
+
+.h2_1, .h2_2, .h2_3 {
+    color: #854632;
+    font-size: 28px;
+    margin: 0 0 24px 0;
+}
+.h3_1 {
+    color: #7A284E;
+    font-size: 20px;
+    margin: 0 0 16px 0;
+}
+
+.calories, .carbs, .protein, .fat {
+    margin-left: 32px;
+}
+.two-seven-seven-kcal, .zero-g, .twenty-g, .twenty-two-g {
+    color: #854632;
+    font-weight: bold;
+    margin-right: 290px;
+}
+
+span {
+font-weight: bold;
+}
+
+.li {
+    padding-left: 8px;
+}
+
+ul, ol {
+    margin: 0px;
+}
+.ul_1, .ul_2, .ol_1 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.protein-container, .calories-container, .carbs-container, .fat-container {
+    display: flex;
+    justify-content: space-between;
+}
+hr {
+    color: #E3DDD7;
+}
